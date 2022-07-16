@@ -38,6 +38,8 @@ $(document).ready(function(){
     }
     })
 });
+
+
 // Get all sections that have an ID defined
 const sections = document.querySelectorAll("section[id]");
 

@@ -137,6 +137,10 @@ span{
     left: 10%;
     transform: translateY(-50%);
 }
+.content .max-width{
+    width: 100%;
+    display: flex;
+}
 .content a{
     background-color: #f9004d;
     padding: 12px 36px;
