@@ -355,6 +355,8 @@ h4{
     background-color: #191919;
     padding: 100px;
     font-family: 'roboto mono', sans-serif;
+    
+    width: 100%;
 }
 
 .skills .skills-content{
@@ -363,8 +365,23 @@ h4{
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .column{
+/* .skills .skills-content .column{
     width: calc(50% - 30px);
+} */
+.skills .skills-content .left{
+    width: 45%;
+}
+.skills .skills-content .left .text{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'roboto mono';
+}
+.skills .skills-content .left p{
+    color: white;
+    text-align: justify;
+    font-family: 'roboto mono';
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -375,6 +392,9 @@ h4{
 .skills .skills-content .left p{
     text-align: justify;
     color: white;
+}
+.skills .skills-content .right{
+    width: 45%;
 }
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -431,8 +451,14 @@ h4{
     align-items: center;
     justify-content: space-between;
 }
-.contact .contact-content .column{
+/* .contact .contact-content .column{
     width: calc(50% - 30px);
+} */
+.contact .contact-content .left{
+    width: 45%;
+}
+.contact .contact-content .right{
+    width: 45%;
 }
 .contact .contact-content .text{
     font-size: 20px;
@@ -444,6 +470,7 @@ h4{
     text-align: justify;
     color: white;
 }
+
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
@@ -697,8 +724,13 @@ svg .progress-bar {
         justify-content: center;
         margin: 0 auto 60px;
     }
+    /* .skills .skills-content .right,
+    .contact .contact-content .right */
     .about .about-content .right{
         flex: 100%;
+    }
+    .skills, .contact{
+        padding: 50px;
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
@@ -757,6 +789,9 @@ svg .progress-bar {
         font-size: 19px;
     }
     .contact .right form .fields{
+        flex-direction: column;
+    }
+    .skills .right{
         flex-direction: column;
     }
     .contact .right form .name,
