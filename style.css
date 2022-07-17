@@ -219,7 +219,7 @@ h4{
     margin-bottom: 4px;
     color: #f9004d;
 }
-.about .about-content .right a{
+.about .about-content .right a.cv{
     background-color: #f9004d;
     text-decoration: none;
     padding: 10px 30px;
@@ -234,6 +234,19 @@ h4{
 .about .about-content .right a:hover{
     color: #f9004d;
     background: none;
+}
+.social ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.social ul li{
+    display: inline-block;
+    /* padding: 0 10px; */
+    /* padding: 20px 10px; */
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 /* project section style */
@@ -443,7 +456,7 @@ h4{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(220, 20, 60);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -512,12 +525,17 @@ h4{
 }
 /* footer section styling */
 footer{
-    background: #f9004d;
+    /* background: #212020; */
+    font-size: 13px;
+    background: #000;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
     font-family: 'roboto mono';
     color: white;
+    /* -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75); */
 }
 footer span a{
     color: white;
@@ -533,14 +551,59 @@ footer span{
     flex-direction: row;
     justify-content: space-between;
 }
-.f-right ul li a{
-    color: white;
-    font-size: larger;
-    text-decoration: none;
+
+
+/* scroll indicator styling */
+.indicator {
+    /* height: 200vh;
+    min-height: 100vh; */
+    width: 100px;
+    position: fixed;
+    /* top: 69%; left: 92%; */
+    z-index: 999;
+    bottom: -5px; 
+    right: -20px;
+    
 }
-.f-right ul li{
-    display: inline-block;
-    padding: 0 10px;
+
+.completed:before{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.5;
+}
+
+svg {
+    position: sticky;
+    transform: rotate(-90deg);
+}
+
+svg circle {
+    stroke: #fffdfdef;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    fill: transparent;
+    opacity: 0;
+}
+
+svg .progress-bar {
+    stroke: url(#grad);
+    opacity: 1;
+    transition: stroke-dashoffset 0 ease-in-out; 
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
+}
+
+.pct {
+    font-family: 'roboto mono';
+    font-size: 12px;
+    color: white;
+    position: fixed;
+    width:30px;
+    height:30px;
+    bottom: 4px;
+    right: 10px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-feature-settings: "tnum"; 
+    font-variant-numeric: tabular-nums;
 }
 
 
