@@ -82,6 +82,7 @@ section {
 .logo{
     color: white;
     font-size: 35px;
+    text-decoration: none;
     letter-spacing: 1px;
     cursor: pointer;
 }
