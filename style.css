@@ -135,6 +135,7 @@ span{
     top: 55%;
     left: 10%;
     transform: translateY(-50%);
+    background-color: black;
 } */
 .content{
     font-family: 'Josefin Sans', sans-serif;
@@ -795,6 +796,9 @@ svg .progress-bar {
     color: white;
     font-size: 32px;
     }
+    .content{
+        padding: 50px;
+    }
     .content a{
         font-size: 20px;
         padding: 9px 25px;
@@ -878,7 +882,7 @@ svg .progress-bar {
     .max-width{
         max-width: 900px;
     }
-    .skills, .contact{
+    .skills, .contact, .content{
         padding: 30px;
     }
 }
