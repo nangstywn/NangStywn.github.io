@@ -622,11 +622,8 @@ footer span{
 
 /* scroll indicator styling */
 .indicator {
-    /* height: 200vh;
-    min-height: 100vh; */
     width: 100px;
     position: fixed;
-    /* top: 69%; left: 92%; */
     z-index: 999;
     bottom: -5px; 
     right: -20px;
@@ -882,6 +879,9 @@ svg .progress-bar {
     .max-width{
         max-width: 900px;
     }
+    .section-heading {
+	margin-bottom: 3rem;
+}
     .skills, .contact, .content{
         padding: 30px;
     }
