@@ -403,15 +403,43 @@ h4{
 }
 .skills .skills-content .right{
     width: 47%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .skills .skills-content .right .bars{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .skills .skills-content .right .info{
     display: flex;
     margin-bottom: 5px;
+    border-radius: 5px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+    box-shadow: 10px 10px;
+    background-color: #444544;
     align-items: center;
-    justify-content: space-between;
+    padding: 5px;
+}
+.skills .skills-content .right .info img{
+    /* text-align: center; */
+    height: 60px;
+    width: 60px;
+    /* margin-top: 10px; */
+}
+.skills .skills-content .right .info p{
+    font-family: 'Josefin Sans';
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    /* margin-bottom: 10px; */
 }
 .skills .skills-content .right span{
     font-weight: 500;
@@ -431,6 +459,7 @@ h4{
     top: 0;
     background: crimson;
 }
+
 .skills-content .right .html::before{
     width: 90%;
 }
@@ -649,6 +678,17 @@ svg .progress-bar {
     .about .about-content .left img{
     height: 320px;
     width: 320px;
+    }
+    .skills .skills-content .right .info{
+    width: 100px;
+    height: 80px;
+    padding: 5px;
+    }
+    .skills .skills-content .right .info img{
+    /* text-align: center; */
+    height: 50px;
+    width: 50px;
+    /* margin-top: 10px; */
 }
 }
 @media(max-width: 947px){
