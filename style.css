@@ -272,7 +272,7 @@ h4{
     justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 .projects .item:nth-child(even){
     flex-direction: row-reverse;
@@ -882,6 +882,9 @@ svg .progress-bar {
     }
     .section-heading {
 	margin-bottom: 3rem;
+    }
+    .projects .item{
+    margin-bottom: 4rem;
 }
     .skills, .contact, .content{
         padding: 30px;
