@@ -23,7 +23,6 @@ section {
 	max-width: 1000px;
 }
 .section-heading {
-	/* font-size: clamp(2rem, 10vw, 8rem); */
     font-size: 80px;
     width: 100%;
 	text-transform: uppercase;
