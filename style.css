@@ -863,19 +863,7 @@ svg .progress-bar {
     }
 }
 @media(max-width: 514px){
-    /* .max-width{
-        flex: 100%;
-        padding: 0px;
-        margin: 0px;
-        width: 320px;
-    }
-    .about .about-content{
-        flex: 100%;
-        left: 0;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-    } */
+    
     .max-width{
         max-width: 900px;
     }
