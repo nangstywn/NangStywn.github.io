@@ -863,7 +863,6 @@ svg .progress-bar {
     }
 }
 @media(max-width: 514px){
-    
     .max-width{
         max-width: 900px;
     }
